@@ -1,0 +1,45 @@
+.app {
+  display: flex;
+}
+.light {
+  background: white;
+  color: black;
+}
+.dark {
+  /* background: linear-gradient(270deg, grey, rgba(89, 87, 87, 0.6)); */
+  background: black;
+  color: white;
+}
+.staticSideBar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 15%;
+  position: relative;
+}
+.sideBar-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 15%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+body {
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1024px) {
+  .sideBar-left {
+    display: none;
+  }
+  .staticSideBar {
+    margin-left: 0;
+  }
+  .navBar {
+    width: 100%;
+  }
+}

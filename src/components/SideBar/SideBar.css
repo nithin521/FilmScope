@@ -1,0 +1,39 @@
+.sideBar {
+  height: auto;
+  min-height: 100vh;
+  background: #939292;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sideBar h1 {
+  text-align: center;
+}
+.sideBar h3 {
+  padding: 10px 15px;
+}
+.sideBar h3:hover {
+  background-color: rgba(224, 220, 220, 0.8);
+  color: black;
+  cursor: pointer;
+  /* border: 1px solid white; */
+  border-radius: 2px;
+}
+.sideBar h3:last-of-type {
+  margin-bottom: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 9px; /* Decrease width */
+  height: 9px; /* Decrease height for horizontal scrollbar */
+}
+
+/* The scrollbar "thumb" */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scroll thumb */
+  border-radius: 2px; /* Rounded corners for thumb */
+}
+
+/* The scrollbar "track" */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scroll track */
+}

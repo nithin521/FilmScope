@@ -1,0 +1,33 @@
+.movies-img {
+  height: 320px;
+  width: 240px;
+  object-fit: fill;
+  object-position: center;
+  border-radius: 8px;
+}
+.movies {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  position: relative;
+}
+.movies-box {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 25px;
+  transition: all 0.4s ease-in-out;
+}
+.movies-box:hover {
+  scale: 1.04;
+  cursor: pointer;
+}
+.movies-h1 {
+  position: absolute;
+  top: -80px;
+  left: 2%;
+}
